@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: px;
+    background-image: url(Web-Images/travel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+div.topnav ul{
+    
+    background-color: rgba(63, 70, 129, 0.555);
+    width: 100%;
+    top:0px;
+    overflow: hidden;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+li.Home-logo{ float: left;
+    list-style:none;
+    
+
+}
+
+li#nav-contents{
+    list-style:none;
+    float: right;
+    
+    
+}
+a{  
+    display: block;
+    padding: 20px ;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center; 
+    text-decoration: none;
+    color:white;
+}
+
+li#nav-contents:hover{
+    
+    background: rgba(248, 247, 250, 0.247);
+   margin: auto;
+   text-align: center;
+   padding: 0px;
+}
+
+form {
+    /* margin-top: 100px; */
+    width: 400px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 90px auto;
+    background:rgba(255, 255, 255, 0.692);
+    height: 550px;
+    box-sizing: border-box;
+
+}
+input[type=text], input[type=password]{
+        width: 300px;
+        margin-top: 0px;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.616);
+        outline: none;
+        background: none;
+        
+}
+
+    
+
+    input[type=text]:hover {
+        border-bottom: 1px solid black;
+    }
+
+    input[type=password]:hover {
+        border-bottom: 1px solid black;
+    }    
+
+    input[type=text]:focus {
+        border-bottom: 1px solid black;
+        background: white;
+    }
+
+    input[type=password]:focus {
+        border-bottom: 1px solid black;
+        background: white;
+    }
+
+    input[type=submit]{
+        width: 300px;
+        padding: 12px;
+        border-radius: 15px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        background: rgba(63, 70, 129, 0.555);
+        color: white;
+        
+
+    }
+
+    input[type=submit]:hover{
+        background-color: rgba(0, 0, 0, 0.685);
+        color:white;
+
+    }
+    #remember{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+    } 
+    .renew{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        color: rgba(255, 0, 0, 0.753);
+        float: right;
+        padding: 5px 0;
+    }
+    a#Login{
+        float:right;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        padding: 5px 0;
+        color: white;
+        border: 0px solid;
+        background-color: rgba(63, 70, 129, 0.555);
+        border-radius: 5px;
+        width: 100px;
+    }
+    span
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    a#Login:hover{
+        background-color: rgba(0, 0, 0, 0.685);
+        color:white;
+
+    }
+    select{
+        width: 200px;
+        height: 20px;
+        color: green;
+        border: black;
+        
+    }
+
+    
+    
+
+/* h2{
+    color: rgba(0, 0, 0, 0.925);
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+*/
+
+    
+    
+   
+    
+    
+    
+
